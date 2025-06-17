@@ -1,0 +1,47 @@
+body {
+  background-color: #f9f9f9;
+  font-family:georgia;
+  margin: 0;
+  padding: 0;
+}
+legend{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;   
+}
+#form {
+  box-shadow: 0 0 8px 2px goldenrod;
+  width: 50%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.form input[type="number"],
+.form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  font-size: 16px;
+  border: 1px solid gold;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gold;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: gold;
+  color: white;
+}
