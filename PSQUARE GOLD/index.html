@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gold Price Converter</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div id="form">
+    <form id="gold-form" class="form">
+      <fieldset>
+        <legend>P Square Gold Billing System</legend>
+
+        <label for="price">Enter the Price /gram:</label> <br/>
+        <input type="number" id="price" placeholder="Enter price..." required><br/>
+
+        <label for="weight">Enter the weight in grams:</label><br/>
+        <input type="number" id="weight" placeholder="Enter weight..." required><br/>
+
+        <button onclick="generateBill(event)" type="submit" class="btn">Generate Bill</button>
+        <button type="reset" class="btn">Clear</button>
+         <div id="output" style="margin-top: 20px; "></div>
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
